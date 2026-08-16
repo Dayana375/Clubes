@@ -14,11 +14,11 @@
     "react-native": "0.86.2",
     "react-native-web": "^0.21.2"
   },
-  "scripts": {
-    "start": "expo start",
+ "scripts": {
+    "start": "node server.js",
+    "expo": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web"
-  },
-  "private": true
+  } 
 }
